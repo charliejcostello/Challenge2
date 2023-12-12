@@ -20,6 +20,12 @@ body {
   line-height: 1.5;
 }
 
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
 .header {
   background: url(images/pexels-humphrey-muleba-1647120.jpg) no-repeat center center;
   background-size: cover;
