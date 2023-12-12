@@ -56,3 +56,28 @@ p {
   margin: 0;
 }
 
+.page-section {
+  background-color: orange;
+  display: flex;
+}
+
+.page-wrapper {
+  padding: 0px 40px;
+}
+
+.page-section .header {
+  flex-basis: 20%;
+  background-color: lightgray;
+  border-right: 3px solid black;
+}
+
+.page-section .grid {
+  flex-basis: 80%;
+  background-color: grey;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas: 
+  "project-1 project-1"
+  "project-2 project-3"
+  "project-4 project-5"
+}
