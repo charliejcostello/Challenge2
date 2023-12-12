@@ -1,3 +1,13 @@
+.nav-content {
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 30;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,8 +15,16 @@
 body {
   margin: 40px;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   line-height: 1.5;
+}
+
+.header {
+  background: url(images/pexels-humphrey-muleba-1647120.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  text-align: center; 
 }
 
 .wrapper {
